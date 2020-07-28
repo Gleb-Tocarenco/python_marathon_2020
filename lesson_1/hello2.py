@@ -1,0 +1,1 @@
+print("Ana are mere".replace('a', 'b'))
