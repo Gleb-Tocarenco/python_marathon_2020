@@ -1,0 +1,18 @@
+<html>
+   <head>
+     {% if title %}
+        <title>{{ title }}</title>
+     {% else %}
+        <title>Home</title>
+     {% endif %}
+   </head>
+   <body>
+       <div>
+           Home: <a href="/index">Home</a>
+           Date: <a href="/date">Date</a>
+        </div>
+       <hr>
+       {% block content %}{% endblock %}
+   </body>
+</html>
+
