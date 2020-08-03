@@ -6,7 +6,7 @@ print(r)
 
 f.close()
 #file read
-with open('test.txt') as f:
+with open('test.txt', encoding='utf-8') as f:
     r = f.read()
     print(r)
     f.close()

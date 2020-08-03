@@ -1,2 +1,4 @@
 hello1.py
 env*
+venv*
+__pycache__*
