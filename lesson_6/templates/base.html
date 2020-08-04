@@ -8,8 +8,9 @@
    </head>
    <body>
        <div>
-           Home: <a href="/index">Home</a>
+           Home: <a href="{{url_for('index')}}">Home</a>
            Date: <a href="/date">Date</a>
+           Login: <a href="/login">Login</a>
         </div>
        <hr>
        {% block content %}{% endblock %}

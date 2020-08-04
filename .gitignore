@@ -2,3 +2,4 @@ hello1.py
 env*
 venv*
 __pycache__*
+app.db
